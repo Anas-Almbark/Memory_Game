@@ -59,7 +59,6 @@ function checkBlock(firstBlock, secondBlock) {
     secondBlock.classList.remove("is-flipped");
     firstBlock.classList.add("has-match");
     secondBlock.classList.add("has-match");
-    hasMatch.push({ cardOne: firstBlock, cardTwo: secondBlock });
     document.getElementById("win").play();
   } else {
     triesElement.innerHTML = parseInt(triesElement.innerHTML) + 1;
