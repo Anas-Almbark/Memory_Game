@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../font-aws/css/all.css" />
+    <link rel="stylesheet" href="master.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="control-button">
+      <span> Start Game </span>
+    </div>
+    <!-- section [1] -->
+    <div class="info-content">
+      <div class="user-name">
+        <h3>Hello : <span> Your Name </span></h3>
+      </div>
+      <div class="tries">Wrong Tries:<span> 0 </span></div>
+    </div>
+    <!--  section [2] -->
+    <div class="memory-game-blocks">
+      <!-- Block cat [One] -->
+      <div class="game-block" data-animals="cat">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-cat"></i>
+        </div>
+      </div>
+      <!-- Block cat [Two] -->
+      <div class="game-block" data-animals="cat">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-cat"></i>
+        </div>
+      </div>
+
+      <!-- Block dog [One] -->
+      <div class="game-block" data-animals="dog">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-dog"></i>
+        </div>
+      </div>
+      <!-- Block dog [Two] -->
+      <div class="game-block" data-animals="dog">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-dog"></i>
+        </div>
+      </div>
+
+      <!-- Block cow [One] -->
+      <div class="game-block" data-animals="cow">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-cow"></i>
+        </div>
+      </div>
+      <!-- Block cow [Two] -->
+      <div class="game-block" data-animals="cow">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-cow"></i>
+        </div>
+      </div>
+
+      <!-- Block dove [One] -->
+      <div class="game-block" data-animals="dove">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-dove"></i>
+        </div>
+      </div>
+      <!-- Block dove [Two] -->
+      <div class="game-block" data-animals="dove">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-dove"></i>
+        </div>
+      </div>
+
+      <!-- Block fish [One] -->
+      <div class="game-block" data-animals="fish">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-fish-fins"></i>
+        </div>
+      </div>
+      <!-- Block fish [Two] -->
+      <div class="game-block" data-animals="fish">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-fish-fins"></i>
+        </div>
+      </div>
+
+      <!-- Block spider [One] -->
+      <div class="game-block" data-animals="spider">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-spider"></i>
+        </div>
+      </div>
+      <!-- Block spider [Two] -->
+      <div class="game-block" data-animals="spider">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-spider"></i>
+        </div>
+      </div>
+
+      <!-- Block mosquito [One] -->
+      <div class="game-block" data-animals="mosquito">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-mosquito"></i>
+        </div>
+      </div>
+      <!-- Block mosquito [Two] -->
+      <div class="game-block" data-animals="mosquito">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-mosquito"></i>
+        </div>
+      </div>
+
+      <!-- Block frog [One] -->
+      <div class="game-block" data-animals="frog">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-frog"></i>
+        </div>
+      </div>
+      <!-- Block frog [Two] -->
+      <div class="game-block" data-animals="frog">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-frog"></i>
+        </div>
+      </div>
+
+      <!-- Block locust [One] -->
+      <div class="game-block" data-animals="locust">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-locust"></i>
+        </div>
+      </div>
+      <!-- Block locust [Two] -->
+      <div class="game-block" data-animals="locust">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-locust"></i>
+        </div>
+      </div>
+
+      <!-- Block dragon [One] -->
+      <div class="game-block" data-animals="dragon">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-dragon"></i>
+        </div>
+      </div>
+      <!-- Block dragon [Two] -->
+      <div class="game-block" data-animals="dragon">
+        <div class="face front"></div>
+        <div class="face back">
+          <i class="fa-solid fa-dragon"></i>
+        </div>
+      </div>
+    </div>
+    <audio src="./sounds/win.wav" id="win" preload="auto"></audio>
+    <audio src="./sounds/end-match.wav" id="end-match" preload="auto"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
